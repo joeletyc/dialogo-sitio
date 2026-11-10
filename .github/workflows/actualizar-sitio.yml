@@ -1,0 +1,130 @@
+name: Actualizar sitio
+
+# Every 30 minutes: read new Facebook posts, save them, rebuild the site and publish it.
+on:
+  schedule:
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: actualizar-sitio
+  cancel-in-progress: false
+
+env:
+  MEDIA_DIR: _media
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    outputs:
+      publicar: ${{ steps.cambios.outputs.publicar }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Descargar imágenes guardadas (rama media)
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          url="https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          if git ls-remote --exit-code --heads "$url" media >/dev/null 2>&1; then
+            git clone --quiet --depth 1 --branch media "$url" "$MEDIA_DIR"
+          else
+            mkdir -p "$MEDIA_DIR"
+          fi
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci --no-audit --no-fund
+
+      - name: Leer publicaciones de Facebook
+        env:
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          FB_PAGE_ID: ${{ vars.FB_PAGE_ID }}
+        run: node scripts/fetch-facebook.mjs
+
+      - name: Guardar cambios
+        id: cambios
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          publicar=false
+          if [ "${{ github.event_name }}" != "schedule" ]; then publicar=true; fi
+
+          # Images: kept as a single commit on the "media" branch so history never grows.
+          cd "$MEDIA_DIR"
+          if [ ! -d .git ]; then
+            git init --quiet -b media
+            git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git"
+          fi
+          if [ -n "$(git status --porcelain)" ]; then
+            git checkout --quiet --orphan media-nueva
+            git add -A
+            git commit --quiet -m "Imágenes $(date -u +%Y-%m-%dT%H:%MZ)"
+            git branch -M media
+            git push --quiet --force origin media
+            publicar=true
+          fi
+          cd "$GITHUB_WORKSPACE"
+
+          # Post data and settings.
+          if [ -n "$(git status --porcelain data)" ]; then
+            git add data
+            git commit --quiet -m "Publicaciones de Facebook $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push --quiet origin HEAD:main
+            publicar=true
+          else
+            # GitHub pauses scheduled workflows after 60 days without commits.
+            last=$(git log -1 --format=%ct)
+            if [ $(( $(date +%s) - last )) -gt $(( 45 * 86400 )) ]; then
+              date -u +%Y-%m-%dT%H:%MZ > data/latido.txt
+              git add data/latido.txt
+              git commit --quiet -m "Mantener activas las actualizaciones automáticas"
+              git push --quiet origin HEAD:main
+            fi
+          fi
+          echo "publicar=$publicar" >> "$GITHUB_OUTPUT"
+
+      - name: Configurar GitHub Pages
+        if: steps.cambios.outputs.publicar == 'true'
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Construir sitio
+        if: steps.cambios.outputs.publicar == 'true'
+        env:
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
+          SITE_URL: ${{ vars.SITE_URL || steps.pages.outputs.base_url }}
+        run: node scripts/build.mjs
+
+      - name: Subir sitio
+        if: steps.cambios.outputs.publicar == 'true'
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+  publicar:
+    needs: actualizar
+    if: needs.actualizar.outputs.publicar == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publicar en GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

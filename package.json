@@ -1,0 +1,20 @@
+{
+  "name": "dialogo-sitio",
+  "version": "1.0.0",
+  "description": "Sitio de noticias de Diálogo, actualizado automáticamente desde Facebook",
+  "scripts": {
+    "fetch": "node scripts/fetch-facebook.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node dev/serve.mjs",
+    "token": "node scripts/obtener-token.mjs"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "sharp": "^0.35.5"
+  },
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  }
+}

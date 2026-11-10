@@ -1,0 +1,63 @@
+{
+  "site": {
+    "name": "Diálogo",
+    "tagline": "Noticias de Apatzingán y Tierra Caliente",
+    "description": "Diálogo es un medio de noticias locales de Apatzingán, Michoacán. Información diaria sobre la ciudad y la región de Tierra Caliente.",
+    "url": "https://dialogomx.com",
+    "domain": "dialogomx.com",
+    "language": "es-MX",
+    "city": "Apatzingán, Michoacán",
+    "timezone": "America/Mexico_City",
+    "logo": "",
+    "founded": ""
+  },
+  "facebook": {
+    "page_url": "https://www.facebook.com/DialogoMex",
+    "page_id": "",
+    "graph_version": "v26.0",
+    "initial_import_limit": 600,
+    "recent_window": 50,
+    "media_budget_mb": 800,
+    "remove_deleted": true,
+    "exclude_hashtags": []
+  },
+  "contact": {
+    "email": "",
+    "phone": "",
+    "whatsapp": "",
+    "address": "Apatzingán, Michoacán, México"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/DialogoMex",
+    "instagram": "",
+    "x": "",
+    "youtube": "",
+    "tiktok": ""
+  },
+  "about": [
+    "Diálogo es un medio de comunicación local con sede en Apatzingán, Michoacán. Cubrimos lo que pasa en la ciudad y en la región de Tierra Caliente: gobierno, seguridad, servicios públicos, deportes, cultura y la vida diaria de nuestra comunidad.",
+    "Todo lo que publicamos en nuestra página de Facebook aparece también aquí, con fecha y enlace a la publicación original, para que cualquier persona pueda consultarlo y buscarlo en nuestro archivo."
+  ],
+  "layout": {
+    "posts_per_page": 18,
+    "ticker_count": 6,
+    "trending_days": 7,
+    "trending_count": 5,
+    "related_count": 4
+  },
+  "ads": {
+    "show_placeholders": true,
+    "placeholder_text": "Espacio publicitario",
+    "placeholder_cta": "Anúnciate en Diálogo",
+    "slots": {
+      "header": "",
+      "home_mid": "",
+      "sidebar": "",
+      "article_top": "",
+      "article_bottom": ""
+    }
+  },
+  "analytics": {
+    "head_html": ""
+  }
+}
