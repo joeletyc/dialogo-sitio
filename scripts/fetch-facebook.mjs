@@ -315,6 +315,17 @@ async function main() {
   pageId = pageInfo.id;
   log(`Página: ${pageInfo.name} (${pageId})`);
 
+  // A personal (user) token resolves /me to a person and returns zero posts without an error.
+  try {
+    await graph(pageId, { fields: 'category' });
+  } catch (e) {
+    if (e instanceof GraphError && e.code === 100) {
+      console.error(`El token pertenece a una persona (${pageInfo.name}), no a la página. Guarda en FB_PAGE_TOKEN el token de la página que da "me/accounts" (SETUP.md, paso 3).`);
+      process.exit(1);
+    }
+    throw e;
+  }
+
   const initial = store.posts.length === 0;
   const now = Date.now();
   const statsDue = process.env.FORCE_STATS === '1' || !state.stats_refreshed || now - Date.parse(state.stats_refreshed) > STATS_REFRESH_HOURS * 3600e3;

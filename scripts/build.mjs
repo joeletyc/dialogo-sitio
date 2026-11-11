@@ -5,6 +5,7 @@
 //   SITE_URL   absolute site URL used in feeds, sitemaps and share links
 import fs from 'node:fs';
 import path from 'node:path';
+import sharp from 'sharp';
 import {
   ROOT, POSTS_FILE, MEDIA_DIR, loadConfig, readJSON, stripEmoji, formatDate, ymdParts, MONTHS, rmrf, dirSize,
 } from './lib.mjs';
@@ -17,6 +18,7 @@ const BASE = (process.env.BASE_PATH || '').replace(/\/$/, '');
 const SITE_URL = (process.env.SITE_URL || S.url).replace(/\/$/, '');
 const YEAR = new Date().getFullYear();
 const BUILD_ID = Date.now().toString(36);
+const LOGO = S.logo ? await sharp(path.join(ROOT, S.logo)).metadata() : null;
 
 const store = readJSON(POSTS_FILE, { posts: [] });
 const posts = store.posts.slice().sort((a, b) => b.created.localeCompare(a.created));
@@ -95,7 +97,7 @@ const socialLinks = Object.entries(config.social).filter(([, v]) => v)
   .map(([k, v]) => `<a class="social" href="${esc(v)}" target="_blank" rel="noopener" aria-label="${SOCIAL_LABEL[k]}">${ICONS[k]}</a>`).join('');
 
 function brand(tag = 'span') {
-  if (S.logo) return `<${tag} class="brand brand--img"><img src="${u('/' + S.logo.replace(/^\//, ''))}" alt="${esc(S.name)}" width="220" height="64"></${tag}>`;
+  if (LOGO) return `<${tag} class="brand brand--img"><img src="${u('/' + S.logo.replace(/^\//, ''))}" alt="${esc(S.name)}" width="${LOGO.width}" height="${LOGO.height}"></${tag}>`;
   return `<${tag} class="brand">${esc(S.name)}</${tag}>`;
 }
 
@@ -122,7 +124,7 @@ function layout({ title, description, pathname, body, image, type = 'website', j
 <title>${esc(fullTitle)}</title>
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${abs(pathname)}">
-<meta name="theme-color" content="#d2101a">
+<meta name="theme-color" content="#bc1d1d">
 <meta property="og:site_name" content="${esc(S.name)}">
 <meta property="og:locale" content="es_MX">
 <meta property="og:type" content="${type}">
@@ -131,8 +133,8 @@ function layout({ title, description, pathname, body, image, type = 'website', j
 <meta property="og:url" content="${abs(pathname)}">
 <meta property="og:image" content="${ogImage}">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="${u('/assets/img/favicon.svg')}" type="image/svg+xml">
 <link rel="icon" href="${u('/assets/img/favicon-32.png')}" sizes="32x32" type="image/png">
+<link rel="icon" href="${u('/assets/img/icon-192.png')}" sizes="192x192" type="image/png">
 <link rel="apple-touch-icon" href="${u('/assets/img/apple-touch-icon.png')}">
 <link rel="alternate" type="application/rss+xml" title="${esc(S.name)}" href="${u('/feed.xml')}">
 <link rel="preload" href="${u('/assets/fonts/archivo-latin-wdth-normal.woff2')}" as="font" type="font/woff2" crossorigin>

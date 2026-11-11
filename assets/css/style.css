@@ -33,8 +33,8 @@
 }
 
 :root {
-  --red: #d2101a;
-  --red-deep: #9e0a11;
+  --red: #bc1d1d;
+  --red-deep: #8f1515;
   --black: #000;
   --ink: #1a1a1a;
   --muted: #5e5e5e;
@@ -98,7 +98,8 @@ svg { width: 1em; height: 1em; fill: currentColor; flex: none; }
 }
 .brand--img { background: none; padding: 0; margin: 0; }
 .brand--img::after { content: none; }
-.brand--img img { height: clamp(48px, 7vw, 72px); width: auto; }
+.brand--img img { height: clamp(64px, 8vw, 88px); width: auto; }
+.footer__brand .brand--img img { height: 60px; }
 
 .bubble-tag {
   position: relative;
@@ -369,7 +370,7 @@ svg { width: 1em; height: 1em; fill: currentColor; flex: none; }
 .search__results .row { grid-template-columns: 96px minmax(0, 1fr); }
 .search__results .row--noimg { grid-template-columns: 1fr; }
 .search__results p.x { margin: .3rem 0 0; font-family: var(--serif); color: #444; font-size: .98rem; }
-.search__results mark { background: #ffe1e2; color: inherit; }
+.search__results mark { background: #f7dcdc; color: inherit; }
 
 .prose { font-family: var(--serif); font-size: 1.15rem; line-height: 1.65; padding-bottom: 3rem; }
 .prose .page-title { font-family: var(--sans); }

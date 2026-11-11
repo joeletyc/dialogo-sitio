@@ -38,7 +38,11 @@ http.createServer((req, res) => {
   const { page, posts } = load();
   const parts = url.pathname.split('/').filter(Boolean); // [version, node, edge?]
   const node = parts[1], edge = parts[2];
-  if (node === 'me' || (node === page.id && !edge)) return json(res, 200, page);
+  if (process.env.MOCK_USER && (node === 'me' || node === '555')) {
+    if (url.searchParams.get('fields') === 'category') return json(res, 400, { error: { message: '(#100) Tried accessing nonexisting field (category) on node type (User)', code: 100 } });
+    return json(res, 200, { id: '555', name: 'Persona de prueba' });
+  }
+  if (node === 'me' || (node === page.id && !edge)) return json(res, 200, { ...page, category: 'Media/news company' });
   if (edge === 'posts') {
     const fields = url.searchParams.get('fields') || '';
     if (process.env.MOCK_NO_STATS && fields.includes('reactions')) {
