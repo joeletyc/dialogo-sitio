@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T04:44:55.263Z",
+ "updated": "2026-11-13T05:47:20.618Z",
  "page": {
   "id": "1644242829015259",
   "name": "Diálogo"
@@ -314,31 +314,6 @@
    "media_key": "dd4fd2cdeeda",
    "stats": null,
    "missing": 0
-  },
-  {
-   "id": "1644242829015259_1717066547096553",
-   "created": "2026-11-12T22:04:13.000Z",
-   "permalink": "https://www.facebook.com/reel/1439445401694865/",
-   "type": "video",
-   "title": "Dá a conocer su currículo de trabajo para el beneficio de los apatzinguenses.",
-   "kicker": "",
-   "body": "ENTREVISTA CON EL INGENIERO LUIS NARANJO, parte 8",
-   "message": "Dá a conocer su currículo de trabajo para el beneficio de los apatzinguenses.\nENTREVISTA CON EL INGENIERO LUIS NARANJO, parte 8",
-   "video_url": "https://www.facebook.com/reel/1439445401694865/",
-   "link": null,
-   "slug": "2026-11-12-da-a-conocer-su-curriculo-de-trabajo-para-el-096553",
-   "images": [
-    {
-     "file": "media/2026/11/1644242829015259_1717066547096553-0.jpg",
-     "thumb": "media/2026/11/1644242829015259_1717066547096553-0-sm.webp",
-     "w": 405,
-     "h": 720
-    }
-   ],
-   "hash": "0b104d942a277914",
-   "media_key": "dc2c65b5511a",
-   "stats": null,
-   "missing": 2
   },
   {
    "id": "1644242829015259_1717060130430528",
