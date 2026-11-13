@@ -1,10 +1,77 @@
 {
- "updated": "2026-11-13T03:39:54.235Z",
+ "updated": "2026-11-13T04:44:55.263Z",
  "page": {
   "id": "1644242829015259",
   "name": "Diálogo"
  },
  "posts": [
+  {
+   "id": "1644242829015259_1717370230399518",
+   "created": "2026-11-13T03:53:41.000Z",
+   "permalink": "https://www.facebook.com/1714360934033781/posts/1717370230399518",
+   "type": "album",
+   "title": "CRUZ LUCATERO RESPALDA CREACIÓN DE COMISIÓN DE LA VERDAD PARA INVESTIGAR LA ELECCIÓN PRESIDENCIAL DE 2006.",
+   "kicker": "",
+   "body": "Ciudad de México.— Esta mañana, el diputado federal José Luis Cruz Lucatero participó en un encuentro en la Cámara de Diputados, donde se recibió la visita de Ariadna Montiel Reyes.\n\nDurante la reunión se informó sobre la propuesta de crear una Comisión de la Verdad para investigar la elección presidencial de 2006, con el propósito de esclarecer las presuntas irregularidades que marcaron aquel proceso electoral.\n\nUno de los motivos que impulsan esta propuesta son las recientes declaraciones del expresidente Vicente Fox Quesada, quien reconoció haber intervenido políticamente para favorecer el triunfo de Felipe Calderón Hinojosa frente a Andrés Manuel López Obrador.\n\nLa comisión buscaría esclarecer las circunstancias en las que se desarrolló aquella elección y determinar las posibles responsabilidades de quienes habrían participado, material o intelectualmente, en el presunto fraude electoral.\n\nCruz Lucatero destacó la importancia de esclarecer uno de los episodios más controvertidos de la historia política reciente de México, así como garantizar el derecho de la ciudadanía a conocer la verdad y fortalecer la democracia nacional.",
+   "message": "CRUZ LUCATERO RESPALDA CREACIÓN DE COMISIÓN DE LA VERDAD PARA INVESTIGAR LA ELECCIÓN PRESIDENCIAL DE 2006.\n\nCiudad de México.— Esta mañana, el diputado federal José Luis Cruz Lucatero participó en un encuentro en la Cámara de Diputados, donde se recibió la visita de Ariadna Montiel Reyes.\n\nDurante la reunión se informó sobre la propuesta de crear una Comisión de la Verdad para investigar la elección presidencial de 2006, con el propósito de esclarecer las presuntas irregularidades que marcaron aquel proceso electoral.\n\nUno de los motivos que impulsan esta propuesta son las recientes declaraciones del expresidente Vicente Fox Quesada, quien reconoció haber intervenido políticamente para favorecer el triunfo de Felipe Calderón Hinojosa frente a Andrés Manuel López Obrador.\n\nLa comisión buscaría esclarecer las circunstancias en las que se desarrolló aquella elección y determinar las posibles responsabilidades de quienes habrían participado, material o intelectualmente, en el presunto fraude electoral.\n\nCruz Lucatero destacó la importancia de esclarecer uno de los episodios más controvertidos de la historia política reciente de México, así como garantizar el derecho de la ciudadanía a conocer la verdad y fortalecer la democracia nacional.",
+   "video_url": null,
+   "link": null,
+   "slug": "2026-11-12-cruz-lucatero-respalda-creacion-de-comision-de-la-verdad-399518",
+   "images": [
+    {
+     "file": "media/2026/11/1644242829015259_1717370230399518-0.jpg",
+     "thumb": "media/2026/11/1644242829015259_1717370230399518-0-sm.webp",
+     "w": 1200,
+     "h": 802
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1717370230399518-1.jpg",
+     "thumb": "media/2026/11/1644242829015259_1717370230399518-1-sm.webp",
+     "w": 1200,
+     "h": 802
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1717370230399518-2.jpg",
+     "thumb": "media/2026/11/1644242829015259_1717370230399518-2-sm.webp",
+     "w": 1200,
+     "h": 802
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1717370230399518-3.jpg",
+     "thumb": "media/2026/11/1644242829015259_1717370230399518-3-sm.webp",
+     "w": 1200,
+     "h": 802
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1717370230399518-4.jpg",
+     "thumb": "media/2026/11/1644242829015259_1717370230399518-4-sm.webp",
+     "w": 1200,
+     "h": 802
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1717370230399518-5.jpg",
+     "thumb": "media/2026/11/1644242829015259_1717370230399518-5-sm.webp",
+     "w": 1200,
+     "h": 802
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1717370230399518-6.jpg",
+     "thumb": "media/2026/11/1644242829015259_1717370230399518-6-sm.webp",
+     "w": 974,
+     "h": 1280
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1717370230399518-7.jpg",
+     "thumb": "media/2026/11/1644242829015259_1717370230399518-7-sm.webp",
+     "w": 960,
+     "h": 1280
+    }
+   ],
+   "hash": "ea0c36c992424db9",
+   "media_key": "242c307ea268",
+   "stats": null,
+   "missing": 0
+  },
   {
    "id": "1644242829015259_1717271857076022",
    "created": "2026-11-13T02:04:18.000Z",
@@ -271,7 +338,7 @@
    "hash": "0b104d942a277914",
    "media_key": "dc2c65b5511a",
    "stats": null,
-   "missing": 1
+   "missing": 2
   },
   {
    "id": "1644242829015259_1717060130430528",
