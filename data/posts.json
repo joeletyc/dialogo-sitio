@@ -1,10 +1,85 @@
 {
- "updated": "2026-11-15T23:33:11.778Z",
+ "updated": "2026-11-16T02:15:29.903Z",
  "page": {
   "id": "1644242829015259",
   "name": "Diálogo"
  },
  "posts": [
+  {
+   "id": "1644242829015259_1721409073328967",
+   "created": "2026-11-16T01:21:47.000Z",
+   "permalink": "https://www.facebook.com/1714360934033781/posts/1721409073328967",
+   "type": "video",
+   "title": "Publicación del 15 de noviembre de 2026",
+   "kicker": "",
+   "body": "",
+   "message": "",
+   "video_url": "https://www.facebook.com/reel/1495565842441479/",
+   "link": null,
+   "slug": "2026-11-15-publicacion-del-15-de-noviembre-de-2026-328967",
+   "images": [
+    {
+     "file": "media/2026/11/1644242829015259_1721409073328967-0.jpg",
+     "thumb": "media/2026/11/1644242829015259_1721409073328967-0-sm.webp",
+     "w": 405,
+     "h": 720
+    }
+   ],
+   "hash": "2d1f18b24a7c0a8a",
+   "media_key": "dc2c65b5511a",
+   "stats": null,
+   "missing": 0
+  },
+  {
+   "id": "1644242829015259_1721408133329061",
+   "created": "2026-11-16T01:20:37.000Z",
+   "permalink": "https://www.facebook.com/reel/1495565842441479/",
+   "type": "video",
+   "title": "El diputado federal José Luis Cruz Lucatero estuvo en las comunidades de Loma de los Hoyos y Puerta de Alambre, donde sostuvo un diálogo…",
+   "kicker": "",
+   "body": "El diputado federal José Luis Cruz Lucatero estuvo en las comunidades de Loma de los Hoyos y Puerta de Alambre, donde sostuvo un diálogo con sus habitantes e informó sobre la importancia de defender la soberanía nacional, la independencia y el derecho de México a decidir su propio rumbo.\n\nDurante estos encuentros también escuchó las inquietudes de las familias, refrendando la importancia de mantener el diálogo directo con la ciudadanía y acercar la información a cada comunidad.",
+   "message": "El diputado federal José Luis Cruz Lucatero estuvo en las comunidades de Loma de los Hoyos y Puerta de Alambre, donde sostuvo un diálogo con sus habitantes e informó sobre la importancia de defender la soberanía nacional, la independencia y el derecho de México a decidir su propio rumbo.\n\nDurante estos encuentros también escuchó las inquietudes de las familias, refrendando la importancia de mantener el diálogo directo con la ciudadanía y acercar la información a cada comunidad.",
+   "video_url": "https://www.facebook.com/reel/1495565842441479/",
+   "link": null,
+   "slug": "2026-11-15-el-diputado-federal-jose-luis-cruz-lucatero-estuvo-en-329061",
+   "images": [
+    {
+     "file": "media/2026/11/1644242829015259_1721408133329061-0.jpg",
+     "thumb": "media/2026/11/1644242829015259_1721408133329061-0-sm.webp",
+     "w": 405,
+     "h": 720
+    }
+   ],
+   "hash": "d44874f2506b4c36",
+   "media_key": "dc2c65b5511a",
+   "stats": null,
+   "missing": 0
+  },
+  {
+   "id": "1644242829015259_1721393719997169",
+   "created": "2026-11-16T01:03:01.000Z",
+   "permalink": "https://www.facebook.com/1714360934033781/posts/1721393719997169",
+   "type": "video",
+   "title": "Publicación del 15 de noviembre de 2026",
+   "kicker": "",
+   "body": "",
+   "message": "",
+   "video_url": "https://www.facebook.com/reel/3735997363215583/",
+   "link": null,
+   "slug": "2026-11-15-publicacion-del-15-de-noviembre-de-2026-997169",
+   "images": [
+    {
+     "file": "media/2026/11/1644242829015259_1721393719997169-0.jpg",
+     "thumb": "media/2026/11/1644242829015259_1721393719997169-0-sm.webp",
+     "w": 405,
+     "h": 720
+    }
+   ],
+   "hash": "2d1f18b24a7c0a8a",
+   "media_key": "dc2c65b5511a",
+   "stats": null,
+   "missing": 0
+  },
   {
    "id": "1644242829015259_1721309043338970",
    "created": "2026-11-15T23:32:02.000Z",
