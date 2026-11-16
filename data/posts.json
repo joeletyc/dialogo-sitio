@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T22:36:44.872Z",
+ "updated": "2026-11-16T23:30:55.250Z",
  "page": {
   "id": "1644242829015259",
   "name": "Diálogo"
@@ -243,7 +243,7 @@
    "hash": "2d1f18b24a7c0a8a",
    "media_key": "dc2c65b5511a",
    "stats": null,
-   "missing": 1
+   "missing": 2
   },
   {
    "id": "1644242829015259_1721408133329061",
@@ -293,7 +293,7 @@
    "hash": "2d1f18b24a7c0a8a",
    "media_key": "dc2c65b5511a",
    "stats": null,
-   "missing": 1
+   "missing": 2
   },
   {
    "id": "1644242829015259_1721309043338970",
