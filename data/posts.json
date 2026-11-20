@@ -1,10 +1,35 @@
 {
- "updated": "2026-11-20T04:48:19.738Z",
+ "updated": "2026-11-20T15:44:44.436Z",
  "page": {
   "id": "1644242829015259",
   "name": "Diálogo"
  },
  "posts": [
+  {
+   "id": "1644242829015259_1727150072754867",
+   "created": "2026-11-20T15:20:28.000Z",
+   "permalink": "https://www.facebook.com/reel/1836596870968690/",
+   "type": "video",
+   "title": "Con motivo de la alevación a municipio de Parácuaro Michoacán",
+   "kicker": "",
+   "body": "SESION SOLEMNE ENCABEZADA POR EL PRESIDENTE JOSAFATH BAUTISTA",
+   "message": "Con motivo de la alevación a municipio de Parácuaro Michoacán \nSESION SOLEMNE ENCABEZADA POR EL PRESIDENTE JOSAFATH BAUTISTA",
+   "video_url": "https://www.facebook.com/reel/1836596870968690/",
+   "link": null,
+   "slug": "2026-11-20-con-motivo-de-la-alevacion-a-municipio-de-paracuaro-754867",
+   "images": [
+    {
+     "file": "media/2026/11/1644242829015259_1727150072754867-0.jpg",
+     "thumb": "media/2026/11/1644242829015259_1727150072754867-0-sm.webp",
+     "w": 405,
+     "h": 720
+    }
+   ],
+   "hash": "86bd8aa07aafe10e",
+   "media_key": "dc2c65b5511a",
+   "stats": null,
+   "missing": 0
+  },
   {
    "id": "1644242829015259_1726576396145568",
    "created": "2026-11-20T04:30:07.000Z",
