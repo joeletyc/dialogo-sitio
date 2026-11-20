@@ -1,10 +1,225 @@
 {
- "updated": "2026-11-20T18:45:38.467Z",
+ "updated": "2026-11-20T19:49:27.842Z",
  "page": {
   "id": "1644242829015259",
   "name": "Diálogo"
  },
  "posts": [
+  {
+   "id": "1644242829015259_1727374782732396",
+   "created": "2026-11-20T19:24:53.000Z",
+   "permalink": "https://www.facebook.com/1714360934033781/posts/1727374782732396",
+   "type": "video",
+   "title": "Publicación del 20 de noviembre de 2026",
+   "kicker": "",
+   "body": "",
+   "message": "",
+   "video_url": "https://www.facebook.com/reel/2661769920949100/",
+   "link": null,
+   "slug": "2026-11-20-publicacion-del-20-de-noviembre-de-2026-732396",
+   "images": [
+    {
+     "file": "media/2026/11/1644242829015259_1727374782732396-0.jpg",
+     "thumb": "media/2026/11/1644242829015259_1727374782732396-0-sm.webp",
+     "w": 405,
+     "h": 720
+    }
+   ],
+   "hash": "2d1f18b24a7c0a8a",
+   "media_key": "dc2c65b5511a",
+   "stats": null,
+   "missing": 0
+  },
+  {
+   "id": "1644242829015259_1727372879399253",
+   "created": "2026-11-20T19:23:48.000Z",
+   "permalink": "https://www.facebook.com/reel/2069441697076196/",
+   "type": "video",
+   "title": "ENTREVISTA CON EL REGIDOR JAVIER OROZCO DEL AYUNTAMIENTO DE PARÁCUARO, MICHOACÁN.",
+   "kicker": "",
+   "body": "",
+   "message": "ENTREVISTA CON EL REGIDOR JAVIER OROZCO DEL AYUNTAMIENTO DE PARÁCUARO, MICHOACÁN.",
+   "video_url": "https://www.facebook.com/reel/2069441697076196/",
+   "link": null,
+   "slug": "2026-11-20-entrevista-con-el-regidor-javier-orozco-del-ayuntamiento-de-399253",
+   "images": [
+    {
+     "file": "media/2026/11/1644242829015259_1727372879399253-0.jpg",
+     "thumb": "media/2026/11/1644242829015259_1727372879399253-0-sm.webp",
+     "w": 405,
+     "h": 720
+    }
+   ],
+   "hash": "a14186e016b222eb",
+   "media_key": "dc2c65b5511a",
+   "stats": null,
+   "missing": 0
+  },
+  {
+   "id": "1644242829015259_1727373469399194",
+   "created": "2026-11-20T19:23:47.000Z",
+   "permalink": "https://www.facebook.com/1714360934033781/posts/1727373469399194",
+   "type": "album",
+   "title": "Publicación del 20 de noviembre de 2026",
+   "kicker": "",
+   "body": "",
+   "message": "",
+   "video_url": null,
+   "link": null,
+   "slug": "2026-11-20-publicacion-del-20-de-noviembre-de-2026-399194",
+   "images": [
+    {
+     "file": "media/2026/11/1644242829015259_1727373469399194-0.jpg",
+     "thumb": "media/2026/11/1644242829015259_1727373469399194-0-sm.webp",
+     "w": 720,
+     "h": 1280
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1727373469399194-1.jpg",
+     "thumb": "media/2026/11/1644242829015259_1727373469399194-1-sm.webp",
+     "w": 1200,
+     "h": 900
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1727373469399194-2.jpg",
+     "thumb": "media/2026/11/1644242829015259_1727373469399194-2-sm.webp",
+     "w": 1200,
+     "h": 900
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1727373469399194-3.jpg",
+     "thumb": "media/2026/11/1644242829015259_1727373469399194-3-sm.webp",
+     "w": 720,
+     "h": 1280
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1727373469399194-4.jpg",
+     "thumb": "media/2026/11/1644242829015259_1727373469399194-4-sm.webp",
+     "w": 720,
+     "h": 1280
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1727373469399194-5.jpg",
+     "thumb": "media/2026/11/1644242829015259_1727373469399194-5-sm.webp",
+     "w": 960,
+     "h": 1280
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1727373469399194-6.jpg",
+     "thumb": "media/2026/11/1644242829015259_1727373469399194-6-sm.webp",
+     "w": 720,
+     "h": 1280
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1727373469399194-7.jpg",
+     "thumb": "media/2026/11/1644242829015259_1727373469399194-7-sm.webp",
+     "w": 1200,
+     "h": 900
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1727373469399194-8.jpg",
+     "thumb": "media/2026/11/1644242829015259_1727373469399194-8-sm.webp",
+     "w": 720,
+     "h": 1280
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1727373469399194-9.jpg",
+     "thumb": "media/2026/11/1644242829015259_1727373469399194-9-sm.webp",
+     "w": 960,
+     "h": 1280
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1727373469399194-10.jpg",
+     "thumb": "media/2026/11/1644242829015259_1727373469399194-10-sm.webp",
+     "w": 960,
+     "h": 1280
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1727373469399194-11.jpg",
+     "thumb": "media/2026/11/1644242829015259_1727373469399194-11-sm.webp",
+     "w": 720,
+     "h": 1280
+    }
+   ],
+   "hash": "25f5d6912ba15488",
+   "media_key": "4706a2ea4dd8",
+   "stats": null,
+   "missing": 0
+  },
+  {
+   "id": "1644242829015259_1727369819399559",
+   "created": "2026-11-20T19:20:09.000Z",
+   "permalink": "https://www.facebook.com/reel/2661769920949100/",
+   "type": "video",
+   "title": "ENTREVISTA CON JAVIER OROZCO REGIDOR DE DESARROLLO RURAL DE PARÁCUARO, MICHOACÁN.",
+   "kicker": "",
+   "body": "",
+   "message": "ENTREVISTA CON JAVIER OROZCO  REGIDOR DE DESARROLLO RURAL DE PARÁCUARO, MICHOACÁN.",
+   "video_url": "https://www.facebook.com/reel/2661769920949100/",
+   "link": null,
+   "slug": "2026-11-20-entrevista-con-javier-orozco-regidor-de-desarrollo-rural-de-399559",
+   "images": [
+    {
+     "file": "media/2026/11/1644242829015259_1727369819399559-0.jpg",
+     "thumb": "media/2026/11/1644242829015259_1727369819399559-0-sm.webp",
+     "w": 405,
+     "h": 720
+    }
+   ],
+   "hash": "67f8199e54582ca7",
+   "media_key": "dc2c65b5511a",
+   "stats": null,
+   "missing": 0
+  },
+  {
+   "id": "1644242829015259_1727365049400036",
+   "created": "2026-11-20T19:14:06.000Z",
+   "permalink": "https://www.facebook.com/1714360934033781/posts/1727365049400036",
+   "type": "album",
+   "title": "Cruz Lucatero conmemora el 116 aniversario de la Revolución Mexicana en San Antonio La Labor",
+   "kicker": "",
+   "body": "Apatzingán, Michoacán, 20 de noviembre de 2026.— En el marco del 116 aniversario del inicio de la Revolución Mexicana, el diputado federal José Luis Cruz Lucatero asistió a los actos cívicos realizados en la Tenencia de San Antonio La Labor, donde acompañó a sus habitantes en la conmemoración de una de las gestas históricas más importantes de nuestro país.\n\nA través de sus redes sociales, el legislador de Morena agradeció la invitación de las autoridades ejidales y destacó la importancia de recordar el movimiento revolucionario iniciado el 20 de noviembre de 1910, que puso fin a la prolongada dictadura de Porfirio Díaz y abrió el camino a profundas transformaciones políticas y sociales en México.\n\nDurante su visita, José Luis Cruz Lucatero recibió muestras de afecto por parte de las familias de San Antonio La Labor, con quienes mantiene una relación de cercanía y diálogo permanente, como parte de su compromiso de mantenerse presente en las colonias y comunidades de su distrito.\n\nFinalmente, el diputado federal destacó la importancia de preservar la memoria histórica y honrar a quienes lucharon por la justicia, la libertad y los derechos del pueblo mexicano, ideales que permanecen vigentes y constituyen pilares fundamentales en la construcción de un México más justo y democrático.",
+   "message": "Cruz Lucatero conmemora el 116 aniversario de la Revolución Mexicana en San Antonio La Labor\n\nApatzingán, Michoacán, 20 de noviembre de 2026.— En el marco del 116 aniversario del inicio de la Revolución Mexicana, el diputado federal José Luis Cruz Lucatero asistió a los actos cívicos realizados en la Tenencia de San Antonio La Labor, donde acompañó a sus habitantes en la conmemoración de una de las gestas históricas más importantes de nuestro país.\n\nA través de sus redes sociales, el legislador de Morena agradeció la invitación de las autoridades ejidales y destacó la importancia de recordar el movimiento revolucionario iniciado el 20 de noviembre de 1910, que puso fin a la prolongada dictadura de Porfirio Díaz y abrió el camino a profundas transformaciones políticas y sociales en México.\n\nDurante su visita, José Luis Cruz Lucatero recibió muestras de afecto por parte de las familias de San Antonio La Labor, con quienes mantiene una relación de cercanía y diálogo permanente, como parte de su compromiso de mantenerse presente en las colonias y comunidades de su distrito.\n\nFinalmente, el diputado federal destacó la importancia de preservar la memoria histórica y honrar a quienes lucharon por la justicia, la libertad y los derechos del pueblo mexicano, ideales que permanecen vigentes y constituyen pilares fundamentales en la construcción de un México más justo y democrático.",
+   "video_url": null,
+   "link": null,
+   "slug": "2026-11-20-cruz-lucatero-conmemora-el-116-aniversario-de-la-revolucion-400036",
+   "images": [
+    {
+     "file": "media/2026/11/1644242829015259_1727365049400036-0.jpg",
+     "thumb": "media/2026/11/1644242829015259_1727365049400036-0-sm.webp",
+     "w": 900,
+     "h": 1600
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1727365049400036-1.jpg",
+     "thumb": "media/2026/11/1644242829015259_1727365049400036-1-sm.webp",
+     "w": 900,
+     "h": 1600
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1727365049400036-2.jpg",
+     "thumb": "media/2026/11/1644242829015259_1727365049400036-2-sm.webp",
+     "w": 1200,
+     "h": 900
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1727365049400036-3.jpg",
+     "thumb": "media/2026/11/1644242829015259_1727365049400036-3-sm.webp",
+     "w": 1200,
+     "h": 1600
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1727365049400036-4.jpg",
+     "thumb": "media/2026/11/1644242829015259_1727365049400036-4-sm.webp",
+     "w": 1200,
+     "h": 900
+    }
+   ],
+   "hash": "0a8b1bd2e9f8328b",
+   "media_key": "ec1c17c79e9f",
+   "stats": null,
+   "missing": 0
+  },
   {
    "id": "1644242829015259_1727301562739718",
    "created": "2026-11-20T18:01:08.000Z",
@@ -28,7 +243,7 @@
    "hash": "2d1f18b24a7c0a8a",
    "media_key": "dc2c65b5511a",
    "stats": null,
-   "missing": 0
+   "missing": 1
   },
   {
    "id": "1644242829015259_1727299142739960",
