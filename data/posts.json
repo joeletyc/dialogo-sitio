@@ -1,10 +1,35 @@
 {
- "updated": "2026-11-21T18:29:29.953Z",
+ "updated": "2026-11-21T21:06:47.837Z",
  "page": {
   "id": "1644242829015259",
   "name": "Diálogo"
  },
  "posts": [
+  {
+   "id": "1644242829015259_1728583795944828",
+   "created": "2026-11-21T20:37:05.000Z",
+   "permalink": "https://www.facebook.com/reel/1540269001467348/",
+   "type": "video",
+   "title": "PROMOCIONANDO EL COMERCIO",
+   "kicker": "",
+   "body": "EN APATZINGAN, MICHOACÁN.",
+   "message": "PROMOCIONANDO EL COMERCIO \nEN APATZINGAN, MICHOACÁN.",
+   "video_url": "https://www.facebook.com/reel/1540269001467348/",
+   "link": null,
+   "slug": "2026-11-21-promocionando-el-comercio-944828",
+   "images": [
+    {
+     "file": "media/2026/11/1644242829015259_1728583795944828-0.jpg",
+     "thumb": "media/2026/11/1644242829015259_1728583795944828-0-sm.webp",
+     "w": 405,
+     "h": 720
+    }
+   ],
+   "hash": "f543049b72867d36",
+   "media_key": "dc2c65b5511a",
+   "stats": null,
+   "missing": 0
+  },
   {
    "id": "1644242829015259_1728487049287836",
    "created": "2026-11-21T18:20:05.000Z",
