@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T22:07:59.612Z",
+ "updated": "2026-11-22T23:06:54.654Z",
  "page": {
   "id": "1644242829015259",
   "name": "Diálogo"
@@ -517,31 +517,6 @@
    "missing": 0
   },
   {
-   "id": "1644242829015259_1728431652626709",
-   "created": "2026-11-21T17:22:31.000Z",
-   "permalink": "https://www.facebook.com/1714360934033781/posts/1728431652626709",
-   "type": "video",
-   "title": "Publicación del 21 de noviembre de 2026",
-   "kicker": "",
-   "body": "",
-   "message": "",
-   "video_url": "https://www.facebook.com/reel/2385763198921374/",
-   "link": null,
-   "slug": "2026-11-21-publicacion-del-21-de-noviembre-de-2026-626709",
-   "images": [
-    {
-     "file": "media/2026/11/1644242829015259_1728431652626709-0.jpg",
-     "thumb": "media/2026/11/1644242829015259_1728431652626709-0-sm.webp",
-     "w": 405,
-     "h": 720
-    }
-   ],
-   "hash": "2d1f18b24a7c0a8a",
-   "media_key": "dc2c65b5511a",
-   "stats": null,
-   "missing": 2
-  },
-  {
    "id": "1644242829015259_1728343845968823",
    "created": "2026-11-21T15:51:24.000Z",
    "permalink": "https://www.facebook.com/reel/2385763198921374/",
@@ -855,31 +830,6 @@
    "media_key": "dc2c65b5511a",
    "stats": null,
    "missing": 0
-  },
-  {
-   "id": "1644242829015259_1727374782732396",
-   "created": "2026-11-20T19:24:53.000Z",
-   "permalink": "https://www.facebook.com/1714360934033781/posts/1727374782732396",
-   "type": "video",
-   "title": "Publicación del 20 de noviembre de 2026",
-   "kicker": "",
-   "body": "",
-   "message": "",
-   "video_url": "https://www.facebook.com/reel/2661769920949100/",
-   "link": null,
-   "slug": "2026-11-20-publicacion-del-20-de-noviembre-de-2026-732396",
-   "images": [
-    {
-     "file": "media/2026/11/1644242829015259_1727374782732396-0.jpg",
-     "thumb": "media/2026/11/1644242829015259_1727374782732396-0-sm.webp",
-     "w": 405,
-     "h": 720
-    }
-   ],
-   "hash": "2d1f18b24a7c0a8a",
-   "media_key": "dc2c65b5511a",
-   "stats": null,
-   "missing": 2
   },
   {
    "id": "1644242829015259_1727372879399253",
