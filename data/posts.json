@@ -1,10 +1,53 @@
 {
- "updated": "2026-11-23T17:48:09.233Z",
+ "updated": "2026-11-23T19:53:06.781Z",
  "page": {
   "id": "1644242829015259",
   "name": "Diálogo"
  },
  "posts": [
+  {
+   "id": "1644242829015259_1730899079046633",
+   "created": "2026-11-23T18:49:06.000Z",
+   "permalink": "https://www.facebook.com/1714360934033781/posts/1730899079046633",
+   "type": "album",
+   "title": "El Librobús está de gira en Apatzingán.",
+   "kicker": "",
+   "body": "La tercera etapa de la Ruta de Lectura Plan Michoacán 2026 llega con actividades gratuitas para toda la comunidad.\n\n✅ Charlas de lectura\n✅ Presentaciones de libros\n✅ Música y poesía\n✅ Actividades culturales\n✅ Espacios para fomentar la lectura\n\n🗓 Fechas y sedes:\n\n📍 27 de noviembre\n\nSecundaria Técnica No. 5: 8:00 a 11:00 h\nCONALEP 085: 11:30 a 14:00 h\nCentro Cultural La Estación: 16:30 a 18:00 h\n\n📍 28 y 29 de noviembre\n\nCentro Cultural La Estación: 11:00 a 13:00 h\n\n📍 30 de noviembre\n\nCOBAEM: 11:30 a 14:00 h\n\n📍 1 de diciembre\n\nCentro Cultural La Estación: 16:00 a 17:30 h\n\n📍 2 de diciembre\n\nCentro Cultural La Estación: 16:30 a 18:00 h\n\n#GiraDelLibrobús #RutaDeLectura #Michoacán #Apatzingán #FomentoALaLectura #Cultura",
+   "message": "🚌📚 El Librobús está de gira en Apatzingán.\n\nLa tercera etapa de la Ruta de Lectura Plan Michoacán 2026 llega con actividades gratuitas para toda la comunidad.\n\n✅ Charlas de lectura\n✅ Presentaciones de libros\n✅ Música y poesía\n✅ Actividades culturales\n✅ Espacios para fomentar la lectura\n\n🗓 Fechas y sedes:\n\n📍 27 de noviembre\n\nSecundaria Técnica No. 5: 8:00 a 11:00 h\nCONALEP 085: 11:30 a 14:00 h\nCentro Cultural La Estación: 16:30 a 18:00 h\n\n📍 28 y 29 de noviembre\n\nCentro Cultural La Estación: 11:00 a 13:00 h\n\n📍 30 de noviembre\n\nCOBAEM: 11:30 a 14:00 h\n\n📍 1 de diciembre\n\nCentro Cultural La Estación: 16:00 a 17:30 h\n\n📍 2 de diciembre\n\nCentro Cultural La Estación: 16:30 a 18:00 h\n\n#GiraDelLibrobús #RutaDeLectura #Michoacán #Apatzingán #FomentoALaLectura #Cultura",
+   "video_url": null,
+   "link": null,
+   "slug": "2026-11-23-el-librobus-esta-de-gira-en-apatzingan-046633",
+   "images": [
+    {
+     "file": "media/2026/11/1644242829015259_1730899079046633-0.jpg",
+     "thumb": "media/2026/11/1644242829015259_1730899079046633-0-sm.webp",
+     "w": 1080,
+     "h": 1350
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1730899079046633-1.jpg",
+     "thumb": "media/2026/11/1644242829015259_1730899079046633-1-sm.webp",
+     "w": 1080,
+     "h": 1350
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1730899079046633-2.jpg",
+     "thumb": "media/2026/11/1644242829015259_1730899079046633-2-sm.webp",
+     "w": 1080,
+     "h": 1350
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1730899079046633-3.jpg",
+     "thumb": "media/2026/11/1644242829015259_1730899079046633-3-sm.webp",
+     "w": 1080,
+     "h": 1350
+    }
+   ],
+   "hash": "2247b6ad3899e712",
+   "media_key": "14b903b76cf5",
+   "stats": null,
+   "missing": 0
+  },
   {
    "id": "1644242829015259_1730793542390520",
    "created": "2026-11-23T16:51:33.000Z",
@@ -169,24 +212,21 @@
    "id": "1644242829015259_1729791025824105",
    "created": "2026-11-22T20:19:42.000Z",
    "permalink": "https://www.facebook.com/1714360934033781/posts/1729791025824105",
-   "type": "video",
-   "title": "Publicación del 22 de noviembre de 2026",
+   "type": "link",
+   "title": "This content isn't available right now",
    "kicker": "",
    "body": "",
    "message": "",
-   "video_url": "https://www.facebook.com/1562114619276401/videos/1714031236952291",
-   "link": null,
+   "video_url": null,
+   "link": {
+    "title": "This content isn't available right now",
+    "description": "When this happens, it's usually because the owner only shared it with a small group of people, changed who can see it or it's been deleted.",
+    "domain": ""
+   },
    "slug": "2026-11-22-publicacion-del-22-de-noviembre-de-2026-824105",
-   "images": [
-    {
-     "file": "media/2026/11/1644242829015259_1729791025824105-0.jpg",
-     "thumb": "media/2026/11/1644242829015259_1729791025824105-0-sm.webp",
-     "w": 405,
-     "h": 720
-    }
-   ],
-   "hash": "2d1f18b24a7c0a8a",
-   "media_key": "dc2c65b5511a",
+   "images": [],
+   "hash": "9f93e1715a8b61fe",
+   "media_key": "7cbf08df2abb",
    "stats": null,
    "missing": 0
   },
