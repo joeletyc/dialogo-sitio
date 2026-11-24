@@ -1,10 +1,60 @@
 {
- "updated": "2026-11-24T14:10:42.273Z",
+ "updated": "2026-11-24T16:36:48.212Z",
  "page": {
   "id": "1644242829015259",
   "name": "Diálogo"
  },
  "posts": [
+  {
+   "id": "1644242829015259_1731969358939605",
+   "created": "2026-11-24T15:57:09.000Z",
+   "permalink": "https://www.facebook.com/1714360934033781/posts/1731969358939605",
+   "type": "video",
+   "title": "Publicación del 24 de noviembre de 2026",
+   "kicker": "",
+   "body": "",
+   "message": "",
+   "video_url": "https://www.facebook.com/reel/29180607388233196/",
+   "link": null,
+   "slug": "2026-11-24-publicacion-del-24-de-noviembre-de-2026-939605",
+   "images": [
+    {
+     "file": "media/2026/11/1644242829015259_1731969358939605-0.jpg",
+     "thumb": "media/2026/11/1644242829015259_1731969358939605-0-sm.webp",
+     "w": 405,
+     "h": 720
+    }
+   ],
+   "hash": "2d1f18b24a7c0a8a",
+   "media_key": "dc2c65b5511a",
+   "stats": null,
+   "missing": 0
+  },
+  {
+   "id": "1644242829015259_1731949878941553",
+   "created": "2026-11-24T15:44:45.000Z",
+   "permalink": "https://www.facebook.com/reel/29180607388233196/",
+   "type": "video",
+   "title": "RUEDA DE PRENSA CON EL DIPUTADO FEDERAL JOSE LUIS CRUZ LUCATERO",
+   "kicker": "",
+   "body": "",
+   "message": "RUEDA DE PRENSA CON EL DIPUTADO FEDERAL JOSE LUIS CRUZ LUCATERO",
+   "video_url": "https://www.facebook.com/reel/29180607388233196/",
+   "link": null,
+   "slug": "2026-11-24-rueda-de-prensa-con-el-diputado-federal-jose-luis-941553",
+   "images": [
+    {
+     "file": "media/2026/11/1644242829015259_1731949878941553-0.jpg",
+     "thumb": "media/2026/11/1644242829015259_1731949878941553-0-sm.webp",
+     "w": 405,
+     "h": 720
+    }
+   ],
+   "hash": "e555c694e50b24f4",
+   "media_key": "dc2c65b5511a",
+   "stats": null,
+   "missing": 0
+  },
   {
    "id": "1644242829015259_1731833632286511",
    "created": "2026-11-24T13:49:51.000Z",
