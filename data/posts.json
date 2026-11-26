@@ -1,10 +1,35 @@
 {
- "updated": "2026-11-26T15:27:00.327Z",
+ "updated": "2026-11-26T23:42:50.172Z",
  "page": {
   "id": "1644242829015259",
   "name": "Diálogo"
  },
  "posts": [
+  {
+   "id": "1644242829015259_1734908515312356",
+   "created": "2026-11-26T23:17:13.000Z",
+   "permalink": "https://www.facebook.com/1714360934033781/posts/1734908515312356",
+   "type": "photo",
+   "title": "Publicación del 26 de noviembre de 2026",
+   "kicker": "",
+   "body": "",
+   "message": "",
+   "video_url": null,
+   "link": null,
+   "slug": "2026-11-26-publicacion-del-26-de-noviembre-de-2026-312356",
+   "images": [
+    {
+     "file": "media/2026/11/1644242829015259_1734908515312356-0.jpg",
+     "thumb": "media/2026/11/1644242829015259_1734908515312356-0-sm.webp",
+     "w": 1200,
+     "h": 1275
+    }
+   ],
+   "hash": "bbb07749e81a2d81",
+   "media_key": "feb7b9bd4702",
+   "stats": null,
+   "missing": 0
+  },
   {
    "id": "1644242829015259_1733730258763515",
    "created": "2026-11-26T02:31:06.000Z",
