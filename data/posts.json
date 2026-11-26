@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T03:23:50.959Z",
+ "updated": "2026-11-26T15:27:00.327Z",
  "page": {
   "id": "1644242829015259",
   "name": "Diálogo"
@@ -1600,24 +1600,21 @@
    "id": "1644242829015259_1728487049287836",
    "created": "2026-11-21T18:20:05.000Z",
    "permalink": "https://www.facebook.com/1714360934033781/posts/1728487049287836",
-   "type": "video",
-   "title": "Publicación del 21 de noviembre de 2026",
+   "type": "link",
+   "title": "This content isn't available right now",
    "kicker": "",
    "body": "",
    "message": "",
-   "video_url": "https://www.facebook.com/reel/1463103559105436/",
-   "link": null,
+   "video_url": null,
+   "link": {
+    "title": "This content isn't available right now",
+    "description": "When this happens, it's usually because the owner only shared it with a small group of people, changed who can see it or it's been deleted.",
+    "domain": ""
+   },
    "slug": "2026-11-21-publicacion-del-21-de-noviembre-de-2026-287836",
-   "images": [
-    {
-     "file": "media/2026/11/1644242829015259_1728487049287836-0.jpg",
-     "thumb": "media/2026/11/1644242829015259_1728487049287836-0-sm.webp",
-     "w": 405,
-     "h": 720
-    }
-   ],
-   "hash": "2d1f18b24a7c0a8a",
-   "media_key": "dc2c65b5511a",
+   "images": [],
+   "hash": "9f93e1715a8b61fe",
+   "media_key": "7cbf08df2abb",
    "stats": null,
    "missing": 0
   },
