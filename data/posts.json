@@ -1,10 +1,66 @@
 {
- "updated": "2026-11-28T00:14:37.838Z",
+ "updated": "2026-11-28T01:47:12.056Z",
  "page": {
   "id": "1644242829015259",
   "name": "Diálogo"
  },
  "posts": [
+  {
+   "id": "1644242829015259_1736199031849971",
+   "created": "2026-11-28T00:30:42.000Z",
+   "permalink": "https://www.facebook.com/1714360934033781/posts/1736199031849971",
+   "type": "album",
+   "title": "Publicación del 27 de noviembre de 2026",
+   "kicker": "",
+   "body": "",
+   "message": "",
+   "video_url": null,
+   "link": null,
+   "slug": "2026-11-27-publicacion-del-27-de-noviembre-de-2026-849971",
+   "images": [
+    {
+     "file": "media/2026/11/1644242829015259_1736199031849971-0.jpg",
+     "thumb": "media/2026/11/1644242829015259_1736199031849971-0-sm.webp",
+     "w": 853,
+     "h": 1280
+    },
+    {
+     "file": "media/2026/11/1644242829015259_1736199031849971-1.jpg",
+     "thumb": "media/2026/11/1644242829015259_1736199031849971-1-sm.webp",
+     "w": 1200,
+     "h": 800
+    }
+   ],
+   "hash": "1b218fd4375e0994",
+   "media_key": "061dc7e6e54e",
+   "stats": null,
+   "missing": 0
+  },
+  {
+   "id": "1644242829015259_1736198775183330",
+   "created": "2026-11-28T00:30:20.000Z",
+   "permalink": "https://www.facebook.com/1714360934033781/posts/1736198775183330",
+   "type": "video",
+   "title": "Publicación del 27 de noviembre de 2026",
+   "kicker": "",
+   "body": "",
+   "message": "",
+   "video_url": "https://www.facebook.com/reel/2202988117230697/",
+   "link": null,
+   "slug": "2026-11-27-publicacion-del-27-de-noviembre-de-2026-183330",
+   "images": [
+    {
+     "file": "media/2026/11/1644242829015259_1736198775183330-0.jpg",
+     "thumb": "media/2026/11/1644242829015259_1736198775183330-0-sm.webp",
+     "w": 405,
+     "h": 720
+    }
+   ],
+   "hash": "2d1f18b24a7c0a8a",
+   "media_key": "dc2c65b5511a",
+   "stats": null,
+   "missing": 0
+  },
   {
    "id": "1644242829015259_1736173458519195",
    "created": "2026-11-27T23:53:19.000Z",
